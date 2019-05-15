@@ -54,19 +54,18 @@ const conctRootRunFiles = R.pipe( DrkBx.dir.conctDirIsFile, R.map(runFile) )
 // )
 
 /* Array of indicate files */
-console.log(
-    conctRootRunFiles([
-        'AgenteFamMAVI.vis',
-        'AnexoContaSAT.tbl',
-        'AnexoContaSAT.frm'
+// console.log(
+//     conctRootRunFiles([
+//         'AgenteFamMAVI.vis',
+//         'AnexoContaSAT.tbl',
+//         'AnexoContaSAT.frm'
 
-    ], 'Testing\\')
-)
+//     ], 'Testing\\')
+// )
 
 /* One file */
 // console.log(runFile('Testing\\dbo.AjusteAnual.StoredProcedure.sql'))
 // runFile('Testing\\dbo.AjusteAnual.StoredProcedure.sql')
-
 
 module.exports.cleaner = {
     conctRootRunFiles: conctRootRunFiles,
